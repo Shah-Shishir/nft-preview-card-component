@@ -3,19 +3,11 @@
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [The challenge](#the-challenge)
+- [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ### The challenge
 Users should be able to:
@@ -23,7 +15,6 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Links
-
 - Solution URL: https://github.com/Shah-Shishir/nft-preview-card-component
 - Live Site URL: https://nft-preview-card-component-snrs.netlify.app/
 
@@ -31,7 +22,6 @@ Users should be able to:
 I built the HTML first. After that I started adding fonts, images and CSS.
 
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -40,6 +30,5 @@ I built the HTML first. After that I started adding fonts, images and CSS.
 - SCSS
 
 ## Author
-
 - Website - Shah Newaj Rabbi Shishir
 - Frontend Mentor - @Shah-Shishir
