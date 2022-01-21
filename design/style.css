@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-dark-blue: hsl(217, 54%, 11%);
+  --card-dark-blue: hsl(216, 50%, 16%);
+  --line-dark-blue: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: var(--main-dark-blue);
+}
+.wrapper .box {
+  width: 250px;
+  background-color: var(--card-dark-blue);
+  padding: 15px;
+  border-radius: 10px;
+}
+.wrapper .box .img-container {
+  position: relative;
+  background-image: url("../images/image-equilibrium.jpg");
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 220px;
+  width: 220px;
+  cursor: pointer;
+}
+.wrapper .box .img-container:hover .overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  background-color: var(--cyan);
+  opacity: 0.5;
+}
+.wrapper .box .img-container:hover img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35px;
+}
+.wrapper .box .img-container .overlay,
+.wrapper .box .img-container img {
+  display: none;
+}
+.wrapper .box .name {
+  color: var(--white);
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.wrapper .box .name:hover {
+  color: var(--cyan);
+}
+.wrapper .box .details {
+  color: var(--soft-blue);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.wrapper .box .price-with-date-left {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .box .price-with-date-left div {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+.wrapper .box .price-with-date-left div img {
+  margin-right: 5px;
+}
+.wrapper .box .price-with-date-left div.price {
+  color: var(--cyan);
+}
+.wrapper .box .price-with-date-left div.date-left {
+  color: var(--soft-blue);
+}
+.wrapper .box .creator-name {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  border-top: 2px solid var(--line-dark-blue);
+  margin-top: 15px;
+  color: var(--soft-blue);
+}
+.wrapper .box .creator-name img {
+  border: 1px solid var(--white);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.wrapper .box .creator-name .name {
+  margin-left: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.wrapper .box .creator-name .name:hover {
+  color: var(--cyan);
+}
+
+@media (max-width: 480px) {
+  .wrapper .box {
+    width: 90vw;
+  }
+  .wrapper .box .img-container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
