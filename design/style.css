@@ -29,7 +29,7 @@
 }
 .wrapper .box .img-container {
   position: relative;
-  background-image: url("../images/image-equilibrium.jpg");
+  background-image: url("./images/image-equilibrium.jpg");
   border-radius: 6px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
